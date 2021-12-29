@@ -1,0 +1,16 @@
+shodan == html:"Charging station interface"
+
+~1700 hosts
+
+default password on web interface and ssh on 60-70% from my scan
+
+operator:yellow_zone
+manufacturer:orange_zone (<- this is also the root password for ssh Oo)
+
+most the time the ssh service is exposed on port 23.
+
+interesting url :
+
+/operator
+/manufacturer
+/dev (couldn't find the password for this)
